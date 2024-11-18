@@ -1,1 +1,0 @@
-# figma-jewallery-web-clone
