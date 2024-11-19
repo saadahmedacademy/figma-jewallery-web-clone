@@ -6,7 +6,6 @@ import { CiHeart } from "react-icons/ci";
 import { FaCartShopping } from "react-icons/fa6";
 import { CgMenuRightAlt } from "react-icons/cg";
 import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
 import Link from 'next/link';
 import { FaWindowClose } from "react-icons/fa";
 
