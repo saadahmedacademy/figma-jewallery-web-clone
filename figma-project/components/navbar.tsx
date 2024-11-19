@@ -6,6 +6,7 @@ import { CiHeart } from "react-icons/ci";
 import { FaCartShopping } from "react-icons/fa6";
 import { CgMenuRightAlt } from "react-icons/cg";
 import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 import Link from 'next/link';
 import { FaWindowClose } from "react-icons/fa";
 
@@ -44,7 +45,7 @@ export const Navbar = () => {
           <FaWindowClose
             className="text-black absolute top-[-11rem] left-[2rem] rounded-lg text-2xl"
             onClick={() => {
-              gsap.to(".menudiv", { right: "-80%", duration:0.5,display:"none" });
+              gsap.to(".menudiv", { right: "-80%", duration:0.5,display:"none" })
             }}
           />
         </div>

@@ -41,11 +41,13 @@ export const Heropage = () => {
     <div className=" relative ">
     <div className='md:w-[95%] md:h-[95%] w-[90%] h-[92%] top-[4%] left-[5%] absolute md:top-3 md:left-2' id='imageBorder'></div>
       <Image
-        className=" w-[320px] h-[420px]  object-cover object-center rounded"
+        style={{width:"auto",height:"auto"}}
+        className=" w-auto h-auto  object-cover object-center rounded"
         alt="hero"
         src="/girls ⏵ girl.svg"    
         width='0'
         height="0"
+        priority
       />
     </div>
     </div>
